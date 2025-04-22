@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title>    
+</head>
+<body>
+    <main>        
+        <header style="background-color: #f0f0f0; padding: 10px">
+        <h1>Aprendendo HTML e CSS</h1>
+        </header>
+            
+        <nav style="background-color: #ddd; padding: 10px;"></nav>
+        <a href="index.html">Inicio</a>
+            
+        <a href="sobre.html">Sobre</a>
+        </nav>
+    </main>
+    <hr>
+    <h1>Formulários "inputs e botões"</h1>
+    <hr>
+
+    <h2>FORM</h2>
+    <p>FORM define um formulário</p>
+    <p>INPUT campo de entrada "texto, email, senha, etc"</p>
+    <p>TYPE define o tipo do input "text, email, senha, etc"</p>
+    <p>TEXTAREA campo de texto multilinha</p>
+    <p>BUTTON cria um botão "geralmente para envio"</p>
+    <p>LABEL associa um rótulo descritivo a um campo de formulário</p>
+    <p>SELECT cria um menu suspenso "dropdown"</p>
+    <p>OPTION define uma opção dentro do SELECT</p>
+    <p>NAME nome do campo "importante para envio dos dados"</p>
+    <p>PLACEHOLDER texto de dica dentro do campo INPUT</p>
+    
+    <form>
+        <label for="nome">Nome: </label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Digite seu email"><br><br>
+
+        <hr>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="30" placeholder="Escreva aqui..."></textarea><br><br>
+
+        <hr>
+
+        <label for="opcoes">Escolha uma opção</label><br>
+        <select name="opcoes" id="opcao">
+            <option value="1">Opção 1</option>
+            <option value="2">Opção 2</option>
+            <option value="3">Opção 3</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <footer style="background-color: #f0f0f0; padding: 10px;">
+        <p>&copy; 2025 - Nome do Site</p>
+    </footer>  
+</body>
+</html>
