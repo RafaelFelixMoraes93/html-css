@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title> 
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <main>        
+        <header style="background-color: #f0f0f0; padding: 10px">
+        <h1>Aprendendo HTML e CSS</h1>
+        </header>
+            
+        <nav style="background-color: #ddd; padding: 10px;"></nav>
+        <a href="index.html">Inicio</a>
+            
+        <a href="sobre.html">Sobre</a>
+        </nav>
+
+        <hr>
+        <h1>CSS</h1>
+        <hr>
+
+        <h2>Utilizando CSS para estilização</h2>
+        <p>Aqui temos algumas formas de estilização, diretamente no arquivo "não recomendado" e criando um arquivo separado que podemos reutilizar, sendo assim é a melhor forma, pois podemos reutilizar o código,</p>
+        <p>Certo, mas como faço caso tenha que utilizar dois ou mais H1 por exemplo, todos ficaram com o mesmo estilo?</p>
+        <p>Nesse caso utilizamos o "ID" ou "CLASS", servem como um identificador.</p>
+        
+        <h3>ID</h3>
+        <p>Deve ser únixo por página, recomenda-se utilizar para elementsos únicos, como um botão específico ou uma seção do site.</p>
+        <p>Exemplo: <strong>#destaque {color: red}.</strong></p>
+        
+
+        <h3>CLASS</h3>
+        <p>Pode ser utilizado em vários elementos, recomenda-se para grupos de elementos, todos os botões, caixas de aviso, etc.</p>
+        <p>Exemplo: <strong>.importante {background-color: yellow}.</strong></p>
+
+        <h2>Seleções</h2>
+
+        <h3>Unindo seleções</h3>
+        <p>Basta colocar vírgula.</p>
+        <p>Exemplo: <Strong>#destaque, .importante {color: blue}.</Strong></p>
+
+        <h3>Colocando estilos diferentes em seleções unidas</h3>
+        <p>Exemplo: <strong>#destaque {font-weight: normal}.</strong></p>
+        <p>Exemplo: <strong>.importante {font-weight: boldo}.</strong></p>
+
+        <h3>Acessando elementos dentro de elementos</h3>
+        <p>Exemplo: <strong>ol li {}</strong></p>
+        <p>Nesse caso, ele irá até todas as "ol" não não as modificará, e irá apenas mudar os os itens "li" que estão dentro daquelas listas.</p>
+        
+    </main>
+    
+    <footer style="background-color: #f0f0f0; padding: 10px;">
+        <p>&copy; 2025 - Nome do Site</p>
+    </footer>  
+</body>
+</html>
