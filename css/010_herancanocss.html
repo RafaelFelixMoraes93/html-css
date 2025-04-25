@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título</title>    
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <main>        
+        <header style="background-color: #f0f0f0; padding: 10px">
+        <h1>Aprendendo HTML e CSS</h1>
+        </header>
+            
+        <nav style="background-color: #ddd; padding: 10px;"></nav>
+        <a href="/index.html">Inicio</a>
+            
+        <a href="/sobre.html">Sobre</a>
+        </nav>
+
+        <hr>
+        <h1>Herança no CSS</h1>
+        <hr>
+        <p>Em CSS, a herança é o mecanismo de passar propriedadas de estilo de forma automática do elemento <strong>pai</strong> para os elementos <strong>filhos</strong>, menos quando são sobrescritos.</p>
+        <p>Nem todas as propriedades CSS são herdadas, as mais comuns são:</p>
+        <ul>
+            <li>color</li>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>line-height</li>
+            <li>text-align</li>
+            <li>visibility</li>
+        </ul>
+
+        <p>As que não são herdadas</p>
+        <ul>
+            <li>background-color</li>
+            <li>border</li>
+            <li>margin</li>
+            <li>padding</li>
+        </ul>
+
+        <h2>Exemplo</h2>
+        <p>CSS</p>
+        <p>.pai {</p>
+        <p>color: blue;</p>
+        <p>font-family: Arial.</p>
+        <p>}</p>
+
+        <p>HTML</p>
+        <p>>div class="pai"></p>
+        <p>Este texto está em azul e arial.</p>
+        <p>span>Este tambpem, porque herdou da div pai.>span</p>
+        <p>>/div></p>
+
+        <h2>Adicionando atributos</h2>
+        <p>CSS</p>
+        <p>.pai strong {</p>
+        <p>color: red;</p>
+        <p>border 3px solid #000</p>
+        <p>}</p>
+    </main>
+    
+    <footer style="background-color: #f0f0f0; padding: 10px;">
+        <p>&copy; 2025 - Aprendendo HTML e CSS</p>
+    </footer>  
+</body>
+</html>
